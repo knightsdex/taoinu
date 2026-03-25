@@ -1070,7 +1070,7 @@
         M = {
           ethereum: {
             chainId: g.r.id,
-            spydoge: "0xCE7d465077Cac2A4c5C3B57F05888D88B7c20875",
+            spydoge: "0x388557f766C1296D0033d8F964193597bBa27ae9",
             usdt: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
           },
           bsc: {
@@ -2607,7 +2607,7 @@
                       (0, s.jsx)("br", {}),
                       "The TINU is live, with a full high-graphics experience in development.",
                       (0, s.jsx)(c(), {
-                        href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                        href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x388557f766C1296D0033d8F964193597bBa27ae9",
                         children: (0, s.jsx)("button", {
                           className:
                             "  bg-gradient-to-r from-[#0f2027] via-[#1a2a3a] to-[#0f2027] text-[#00f5ff]  font-bold  py-3 px-8  rounded-xl  mt-3  border border-[#00f5ff] uppercase tracking-wider shadow-[0_0_15px_#00f5ff] hover:text-white  hover:bg-[#00f5ff]  hover:shadow-[0_0_25px_#00f5ff] transition-all duration-300 ",
@@ -2626,7 +2626,7 @@
                   transition: { duration: 0.6 },
                   className: "w-full max-w-5xl", // 👈 increase this (e.g. max-w-6xl or max-w-[1200px])
                   children: (0, s.jsx)("iframe", {
-                    src: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                    src: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x388557f766C1296D0033d8F964193597bBa27ae9",
                     width: "100%",
                     height: "600",
                     style: { border: "none", borderRadius: "12px" },
@@ -3392,12 +3392,12 @@
                           (0, s.jsx)("p", {
                             className:
                               "md:hidden text-white text-xs md:text-lg",
-                            children: "0xCE...875",
+                            children: "0x388.....ae9",
                           }),
                           (0, s.jsx)("p", {
                             className:
                               "hidden md:block text-white text-xs md:text-lg",
-                            children: "0xCE7d46.....c20875",
+                            children: "0x388557.....Ba27ae9",
                           }),
                           (0, s.jsx)(W.A, {
                             size: 22,
@@ -3405,7 +3405,7 @@
                               "cursor-pointer text-white hover:scale-110 transition-transform",
                             onClick: () => {
                               navigator.clipboard.writeText(
-                                "0xCE7d465077Cac2A4c5C3B57F05888D88B7c20875"
+                                "0x388557f766C1296D0033d8F964193597bBa27ae9"
                               ),
                                 a("eth"),
                                 setTimeout(() => a(!1), 1500);
