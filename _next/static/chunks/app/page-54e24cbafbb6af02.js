@@ -3311,7 +3311,7 @@
                     className:
                       "flex justify-between text-xs md:text-sm text-gray-700 mt-1 ",
                     children: [
-                      (0, s.jsx)("span", { children: "BNB, ETH, USDT" }),
+                      
                       (0, s.jsx)("span", { children: "TOTAL SUPPLY" }),
                     ],
                   }),
