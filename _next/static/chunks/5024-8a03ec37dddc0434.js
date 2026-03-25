@@ -316,14 +316,14 @@
                         className:
                           "hidden lg:flex items-center gap-5 text-[11px] ",
                         children: [
-                          (0, l.jsx)("div", {
-                            className: j(),
-                            children: (0, l.jsx)(r(), {
-                              href: "https://spydoge.s3.us-east-1.amazonaws.com/whitepaper.pdf",
-                              target: "_blank",
-                              children: e("Whitepaper"),
-                            }),
-                          }),
+                          // (0, l.jsx)("div", {
+                          //   className: j(),
+                          //   children: (0, l.jsx)(r(), {
+                          //     href: "https://spydoge.s3.us-east-1.amazonaws.com/whitepaper.pdf",
+                          //     target: "_blank",
+                          //     children: e("Whitepaper"),
+                          //   }),
+                          // }),
                           v.map((e) =>
                             (0, l.jsx)(
                               r(),
@@ -402,11 +402,11 @@
                   (0, l.jsx)("div", {
                     className: `px-7 mx-5 w-fit py-2  rounded-lg font-bold tracking-wider cursor-pointer shadow-[0px_4px_0px_0px_rgba(0,0,0,1)] bg-[#FB9203] transition-colors text-black transition hover:bg-white hover:shadow-lg duration-300 
              `,
-                    children: (0, l.jsx)(r(), {
-                      href: "https://spydoge.s3.us-east-1.amazonaws.com/whitepaper.pdf",
-                      target: "_blank",
-                      children: e("Whitepaper"),
-                    }),
+                    // children: (0, l.jsx)(r(), {
+                    //   href: "https://spydoge.s3.us-east-1.amazonaws.com/whitepaper.pdf",
+                    //   target: "_blank",
+                    //   children: e("Whitepaper"),
+                    // }),
                   }),
                 ],
               }),
