@@ -2663,7 +2663,7 @@
                       className: "relative md:w-[500px] flex flex-col",
                       children: [
                         (0, s.jsx)(d.default, {
-                          src: "/Phase1.gif",
+                          src: "/Phase1.png",
                           alt: "phase1",
                           width: 800,
                           height: 400,
@@ -2957,7 +2957,7 @@
                     (0, s.jsx)("div", {
                       className: "relative md:w-[500px] flex flex-col",
                       children: (0, s.jsx)(d.default, {
-                        src: "/Phase1.gif",
+                        src: "/Phase1.png",
                         alt: "phase1",
                         width: 800,
                         height: 400,
