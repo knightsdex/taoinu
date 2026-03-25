@@ -3184,7 +3184,7 @@
               id: 4,
               question: a("How to join the Tao Inu community?"),
               answer: a(
-                "Join their Telegram, Discord, or Twitter. The community shares memes, updates, and presale info in a fun and friendly way."
+                "Join their Telegram, or Twitter. The community shares memes, updates, and presale info in a fun and friendly way."
               ),
             },
           ];
