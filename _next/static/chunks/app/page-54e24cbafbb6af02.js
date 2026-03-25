@@ -2786,22 +2786,22 @@
                   className:
                     "flex flex-col md:flex-row h-[400px] items-end gap-5 mt-16 w-full",
                   children: [
-                    // (0, s.jsxs)("div", {
-                    //   className: "relative w-[250px] md:w-[380px] ",
-                    //   children: [
-                    //     (0, s.jsx)("img", {
-                    //       src: "/Phase3.gif",
-                    //       alt: "phase3gif",
-                    //       className:
-                    //         "absolute left-40 top-0 -translate-x-1/2 -translate-y-[80%] w-[250px] md:w-[550px] z-40",
-                    //     }),
-                    //     (0, s.jsx)("img", {
-                    //       src: "/phase3.png",
-                    //       alt: "phase3",
-                    //       className: "w-[350px] w-fit relative z-10",
-                    //     }),
-                    //   ],
-                    // }),
+                    (0, s.jsxs)("div", {
+                      className: "relative w-[250px] md:w-[380px] ",
+                      children: [
+                        (0, s.jsx)("img", {
+                          src: "/Phase5.png",
+                          alt: "phase3gif",
+                          className:
+                            "absolute left-40 top-0 -translate-x-1/2 -translate-y-[80%] w-[250px] md:w-[550px] z-40",
+                        }),
+                        (0, s.jsx)("img", {
+                          src: "/phase3.png",
+                          alt: "phase3",
+                          className: "w-[350px] w-fit relative z-10",
+                        }),
+                      ],
+                    }),
                     (0, s.jsxs)("div", {
                       className:
                         "text-center md:text-left  h-[500px] flex flex-col  max-w-lg ",
@@ -2884,19 +2884,19 @@
                     (0, s.jsxs)("div", {
                       className:
                         "relative w-[250px] md:w-[900px]  flex justify-end ",
-                      // children: [
-                      //   (0, s.jsx)("img", {
-                      //     src: "/4phase.gif",
-                      //     alt: "phase4",
-                      //     className:
-                      //       "absolute -right-40 top-0   -translate-y-[77%] w-[270px] md:w-[900px] z-40",
-                      //   }),
-                      //   (0, s.jsx)("img", {
-                      //     src: "/phase4.png",
-                      //     alt: "phase4",
-                      //     className: "w-fit  z-10",
-                      //   }),
-                      // ],
+                      children: [
+                        (0, s.jsx)("img", {
+                          src: "/4phase.png",
+                          alt: "phase4",
+                          className:
+                            "absolute left-3/4 top-0 -translate-x-1/2 -translate-y-[70%] w-[250px] md:w-[500px] z-40",
+                        }),
+                        (0, s.jsx)("img", {
+                          src: "/phase4.png",
+                          alt: "phase4",
+                          className: "w-fit  z-10",
+                        }),
+                      ],
                     }),
                   ],
                 }),
