@@ -2765,21 +2765,21 @@
                         }),
                       ],
                     }),
-                    // (0, s.jsxs)("div", {
-                    //   className: "relative w-[250px] md:w-[350px] mx-auto",
-                    //   children: [
-                    //     (0, s.jsx)("img", {
-                    //       src: "/Phase2.gif",
-                    //       alt: "phase2",
-                    //       className:
-                    //         "absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[70%] w-[250px] md:w-[500px] z-40",
-                    //     }),
-                    //     (0, s.jsx)("img", {
-                    //       src: "/phase4.png",
-                    //       className: "w-full relative z-10",
-                    //     }),
-                    //   ],
-                    // }),
+                    (0, s.jsxs)("div", {
+                      className: "relative w-[250px] md:w-[350px] mx-auto",
+                      children: [
+                        (0, s.jsx)("img", {
+                          src: "/Phase2.png",
+                          alt: "phase2",
+                          className:
+                            "absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[70%] w-[250px] md:w-[500px] z-40",
+                        }),
+                        (0, s.jsx)("img", {
+                          src: "/phase4.png",
+                          className: "w-full relative z-10",
+                        }),
+                      ],
+                    }),
                   ],
                 }),
                 (0, s.jsxs)("div", {
@@ -3163,7 +3163,7 @@
               id: 1,
               question: a("What is TAO INU?"),
               answer: a(
-                "A fun memecoin built around the idea of Doge as a secret agent. It mixes humour, memes, and community vibes with crypto."
+                "A fun memecoin built around the idea of Inu as a secret agent. It mixes humour, memes, and community vibes with crypto."
               ),
             },
             {
