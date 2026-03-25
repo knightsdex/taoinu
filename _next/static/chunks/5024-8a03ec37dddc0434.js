@@ -577,7 +577,7 @@
                               //   children: (0, l.jsx)(n.A, { size: 25 }),
                               // }),
                               (0, l.jsx)("a", {
-                                href: "https://t.me/taoinu_erc007",
+                                href: "https://t.me/taoinu_erc",
                                 target: "_blank",
                                 className:
                                   "w-[50px] h-[50px] flex items-center justify-center rounded-full bg-[#AC8EFF] text-white hover:bg-[#505050] [box-shadow:3px_3px_0px_0px_black]",
@@ -760,7 +760,7 @@
                               //   children: (0, l.jsx)(n.A, { size: 25 }),
                               // }),
                               (0, l.jsx)("a", {
-                                href: "https://t.me/taoinu_erc007",
+                                href: "https://t.me/taoinu_erc",
                                 target: "_blank",
                                 className:
                                   "w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#AC8EFF] text-white hover:bg-[#505050] [box-shadow:3px_3px_0px_0px_black]",
