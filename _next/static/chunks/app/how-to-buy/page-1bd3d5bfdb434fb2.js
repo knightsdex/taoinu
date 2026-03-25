@@ -44,7 +44,7 @@
                                   className:
                                     "leading-6 md:leading-6  md:text-md text-bold text-center",
                                   children: e(
-                                    "SpyDoge ($SPYD) is currently in its presale phase and not available on Uniswap, PancakeSwap, or any other DEXs yet. Please be careful—any tokens claiming to be $SPYD outside of our official website are scams."
+                                    "TAO INU($TINU) is currently in its presale phase and not available on Uniswap, PancakeSwap, or any other DEXs yet. Please be careful—any tokens claiming to be $SPYD outside of our official website are scams."
                                   ),
                                 }),
                               ],
@@ -376,7 +376,7 @@
                       (0, s.jsx)("p", {
                         className: "md:text-sm leading-6 text-xs font-bold",
                         children: e(
-                          "SpyDoge ($SPYD) is currently in its presale phase and not available on Uniswap, PancakeSwap, or any other DEXs yet. Please be careful—any tokens claiming to be $SPYD outside of our official website are scams."
+                          "TAO INU($TINU) is currently in its presale phase and not available on Uniswap, PancakeSwap, or any other DEXs yet. Please be careful—any tokens claiming to be $SPYD outside of our official website are scams."
                         ),
                       }),
                     ],
