@@ -295,22 +295,22 @@
                     children: [
                       (0, l.jsx)(r(), {
                         href: "/",
-                        // children: (0, l.jsxs)("div", {
-                        //   className: "hidden md:flex gap-2 items-center",
-                        //   children: [
-                        //     (0, l.jsx)(a.default, {
-                        //       src: "/logo.png",
-                        //       alt: "Logo",
-                        //       width: 100,
-                        //       height: 100,
-                        //       className: "w-10",
-                        //     }),
-                        //     (0, l.jsx)("div", {
-                        //       className: " tracking-widest text-2xl  uppercase",
-                        //       children: e("spydoge"),
-                        //     }),
-                        //   ],
-                        // }),
+                        children: (0, l.jsxs)("div", {
+                          className: "hidden md:flex gap-2 items-center",
+                          children: [
+                            (0, l.jsx)(a.default, {
+                              src: "/logo.png",
+                              alt: "Logo",
+                              width: 100,
+                              height: 100,
+                              className: "w-10",
+                            }),
+                            (0, l.jsx)("div", {
+                              className: " tracking-widest text-2xl  uppercase",
+                              children: e("TAO INU"),
+                            }),
+                          ],
+                        }),
                       }),
                       (0, l.jsxs)("div", {
                         className:
@@ -459,13 +459,13 @@
                           className:
                             "absolute w-48 h-48 bg-gradient-to-r from-white to-white rounded-full blur-2xl",
                         }),
-                        // (0, l.jsx)(r.default, {
-                        //   src: "/footlogo.png",
-                        //   alt: "Virtupace VR Headset",
-                        //   width: 400,
-                        //   height: 400,
-                        //   className: "w-72 relative z-10",
-                        // }),
+                        (0, l.jsx)(r.default, {
+                          src: "/footlogo.png",
+                          alt: "Virtupace VR Headset",
+                          width: 400,
+                          height: 400,
+                          className: "w-72 relative z-10",
+                        }),
                         (0, l.jsx)("div", {
                           className:
                             "absolute bottom-0 w-40 h-10 bg-gradient-to-r from-black to-black rounded-full blur-lg",
