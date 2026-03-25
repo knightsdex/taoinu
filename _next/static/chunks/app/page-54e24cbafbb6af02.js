@@ -2713,15 +2713,15 @@
                                 }),
                               ],
                             }),
-                            (0, s.jsx)("div", {
-                              children: (0, s.jsx)(d.default, {
-                                src: "/gift.png",
-                                alt: "logo",
-                                width: 400,
-                                height: 400,
-                                className: "w-[200px] hidden md:block   z-10",
-                              }),
-                            }),
+                            // (0, s.jsx)("div", {
+                            //   children: (0, s.jsx)(d.default, {
+                            //     src: "/gift.png",
+                            //     alt: "logo",
+                            //     width: 400,
+                            //     height: 400,
+                            //     className: "w-[200px] hidden md:block   z-10",
+                            //   }),
+                            // }),
                           ],
                         }),
                       ],
