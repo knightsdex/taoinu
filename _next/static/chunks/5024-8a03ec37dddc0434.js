@@ -15,91 +15,91 @@
           { locale: n, changeLanguage: c } = (0, i.o)(),
           [d, x] = (0, a.useState)(!1),
           h = (0, a.useRef)(null);
-        return (
-          (0, a.useEffect)(() => {
-            if (s && h.current && !e) {
-              let e = h.current.getBoundingClientRect(),
-                s = window.innerHeight - e.bottom,
-                t = e.top;
-              x(s < 200 && t > s);
-            } else "up" === e ? x(!0) : "down" === e && x(!1);
-          }, [s, e]),
-          (0, l.jsxs)("div", {
-            className: `${o().className} relative inline-block text-left`,
-            children: [
-              (0, l.jsxs)("button", {
-                ref: h,
-                className:
-                  "flex gap-3 text-md items-center text-black px-6 [box-shadow:0px_4px_0px_0px_black] py-3 font-semibold rounded-b-md transition bg-white hover:bg-pink-500 hover:shadow-lg",
-                onClick: () => t(!s),
-                children: [
-                  (0, l.jsx)("span", {
-                    className: "text-md",
-                    children: r.kC[n],
-                  }),
-                  " ",
-                  r.ip[n],
-                  (0, l.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    viewBox: "0 0 24 24",
-                    fill: "none",
-                    stroke: "currentColor",
-                    strokeWidth: "2",
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    className: "w-5 h-5 text-black",
-                    children: (0, l.jsx)("path", { d: "M6 9l6 6 6-6" }),
-                  }),
-                ],
-              }),
-              s &&
-                (0, l.jsx)("div", {
-                  className: `absolute w-40 rounded-md shadow-lg ring-1 ring-black  ring-opacity-5 py-1 z-30 text-black   font-semibold 
-            ${
-              d
-                ? "bottom-full mb-2 bg-pink-500 "
-                : "top-full mt-2 bg-pink-500   "
-            }
-          `,
-                  children: (0, l.jsx)("div", {
-                    className:
-                      "  bg-pink-500 overflow-y-auto h-80 custom-scroll",
-                    style: {
-                      scrollbarWidth: "thin",
-                      scrollbarColor: "pink black",
-                    },
-                    children: r.IB.map((e) =>
-                      (0, l.jsx)(
-                        "li",
-                        {
-                          className: "flex items-center",
-                          children: (0, l.jsxs)("button", {
-                            className: `dropdown-item flex items-center w-full justify-start py-2 px-4 ${
-                              n === e
-                                ? "bg-orange-500 text-white"
-                                : "hover:bg-gray-100"
-                            }`,
-                            onClick: () => {
-                              c(e), t(!1);
-                            },
-                            children: [
-                              (0, l.jsx)("span", {
-                                className: "me-2",
-                                children: r.kC[e],
-                              }),
-                              " ",
-                              r.ip[e],
-                            ],
-                          }),
-                        },
-                        e
-                      )
-                    ),
-                  }),
-                }),
-            ],
-          })
-        );
+        // return (
+        //   (0, a.useEffect)(() => {
+        //     if (s && h.current && !e) {
+        //       let e = h.current.getBoundingClientRect(),
+        //         s = window.innerHeight - e.bottom,
+        //         t = e.top;
+        //       x(s < 200 && t > s);
+        //     } else "up" === e ? x(!0) : "down" === e && x(!1);
+        //   }, [s, e]),
+        //   (0, l.jsxs)("div", {
+        //     className: `${o().className} relative inline-block text-left`,
+        //     children: [
+        //       (0, l.jsxs)("button", {
+        //         ref: h,
+        //         className:
+        //           "flex gap-3 text-md items-center text-black px-6 [box-shadow:0px_4px_0px_0px_black] py-3 font-semibold rounded-b-md transition bg-white hover:bg-pink-500 hover:shadow-lg",
+        //         onClick: () => t(!s),
+        //         children: [
+        //           (0, l.jsx)("span", {
+        //             className: "text-md",
+        //             children: r.kC[n],
+        //           }),
+        //           " ",
+        //           r.ip[n],
+        //           (0, l.jsx)("svg", {
+        //             xmlns: "http://www.w3.org/2000/svg",
+        //             viewBox: "0 0 24 24",
+        //             fill: "none",
+        //             stroke: "currentColor",
+        //             strokeWidth: "2",
+        //             strokeLinecap: "round",
+        //             strokeLinejoin: "round",
+        //             className: "w-5 h-5 text-black",
+        //             children: (0, l.jsx)("path", { d: "M6 9l6 6 6-6" }),
+        //           }),
+        //         ],
+        //       }),
+        //       s &&
+        //         (0, l.jsx)("div", {
+        //           className: `absolute w-40 rounded-md shadow-lg ring-1 ring-black  ring-opacity-5 py-1 z-30 text-black   font-semibold 
+        //     ${
+        //       d
+        //         ? "bottom-full mb-2 bg-pink-500 "
+        //         : "top-full mt-2 bg-pink-500   "
+        //     }
+        //   `,
+        //           children: (0, l.jsx)("div", {
+        //             className:
+        //               "  bg-pink-500 overflow-y-auto h-80 custom-scroll",
+        //             style: {
+        //               scrollbarWidth: "thin",
+        //               scrollbarColor: "pink black",
+        //             },
+        //             children: r.IB.map((e) =>
+        //               (0, l.jsx)(
+        //                 "li",
+        //                 {
+        //                   className: "flex items-center",
+        //                   children: (0, l.jsxs)("button", {
+        //                     className: `dropdown-item flex items-center w-full justify-start py-2 px-4 ${
+        //                       n === e
+        //                         ? "bg-orange-500 text-white"
+        //                         : "hover:bg-gray-100"
+        //                     }`,
+        //                     onClick: () => {
+        //                       c(e), t(!1);
+        //                     },
+        //                     children: [
+        //                       (0, l.jsx)("span", {
+        //                         className: "me-2",
+        //                         children: r.kC[e],
+        //                       }),
+        //                       " ",
+        //                       r.ip[e],
+        //                     ],
+        //                   }),
+        //                 },
+        //                 e
+        //               )
+        //             ),
+        //           }),
+        //         }),
+        //     ],
+        //   })
+        // );
       }
     },
     61779: (e, s, t) => {
