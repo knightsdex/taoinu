@@ -3705,13 +3705,13 @@
                       className: "flex items-center gap-3 px-8",
                       style: { fontFamily: "'Poppins', sans-serif" },
                       children: [
-                        // (0, s.jsx)(d.default, {
-                        //   src: e.img,
-                        //   alt: e.name,
-                        //   width: 40,
-                        //   height: 40,
-                        //   className: "w-10 h-10",
-                        // }),
+                        (0, s.jsx)(d.default, {
+                          src: "/logo.png",
+                          alt: e.name,
+                          width: 40,
+                          height: 40,
+                          className: "w-10 h-10",
+                        }),
                         (0, s.jsx)("span", {
                           className:
                             "text-white text-xl font-semibold whitespace-nowrap",
