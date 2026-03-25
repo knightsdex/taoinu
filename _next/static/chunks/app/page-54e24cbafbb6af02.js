@@ -2624,7 +2624,7 @@
                   initial: { scale: 0.8, opacity: 0 },
                   animate: { scale: 1, opacity: 1 },
                   transition: { duration: 0.6 },
-                  className: "w-full max-w-5xl", // 👈 increase this (e.g. max-w-6xl or max-w-[1200px])
+                  className: "w-full max-w-6xl", // 👈 increase this (e.g. max-w-6xl or max-w-[1200px])
                   children: (0, s.jsx)("iframe", {
                     src: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x388557f766C1296D0033d8F964193597bBa27ae9",
                     width: "100%",
