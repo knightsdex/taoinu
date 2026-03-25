@@ -3383,6 +3383,33 @@
                     children: [
                       (0, s.jsx)("h3", {
                         className: "text-xs md:text-xl text-[#000]",
+                        children: "TAX:",
+                      }),
+                      (0, s.jsxs)("div", {
+                        className:
+                          "flex items-center h-fit justify-center gap-3",
+                        children: [
+                          (0, s.jsx)("p", {
+                            className:
+                              "md:hidden text-white text-xs md:text-lg",
+                            children: "0/0",
+                          }),
+                          (0, s.jsx)("p", {
+                            className:
+                              "hidden md:block text-white text-xs md:text-lg",
+                            children: "0/0",
+                          }),
+                          
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, s.jsxs)("div", {
+                    className:
+                      "bg-[#607EEA] rounded-xl flex flex-row  gap-3 shadow-lg md:p-6 py-1 md:py-3 justify-center border-[#3d73ff] border-2 [box-shadow:3px_3px_5px_black] transition-transform hover:scale-[1.01]",
+                    children: [
+                      (0, s.jsx)("h3", {
+                        className: "text-xs md:text-xl text-[#000]",
                         children: "ETH Contract Address:",
                       }),
                       (0, s.jsxs)("div", {
